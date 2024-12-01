@@ -13,6 +13,8 @@ To install the RAG PDF Chatbot, follow these steps:
 
 1. Clone the repository:
 https://github.com/ELBACHA22/Rag_application
+
+
 2. Navigate to the project directory:
 cd rag-pdf-chatbot
 
@@ -25,8 +27,14 @@ pip install -r requirements.txt
 export HF_TOKEN=your_huggingface_token
 
 
-5. Run the application:
+Usage
+============
+To run the application, follow these steps:
+1. Run the application:
 streamlit run app.py
+
+
+2.Upload a PDF and select the model you wish to use. You can adjust parameters such as temperature, max tokens, and top-k sampling for your queries.
 
 .. toctree::
    :maxdepth: 2

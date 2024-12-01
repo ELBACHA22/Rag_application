@@ -6,10 +6,27 @@
 PDF_rag documentation
 =====================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Installation
+============
 
+To install the RAG PDF Chatbot, follow these steps:
+
+1. Clone the repository:
+https://github.com/ELBACHA22/Rag_application
+2. Navigate to the project directory:
+cd rag-pdf-chatbot
+
+
+3. Install the required dependencies:
+pip install -r requirements.txt
+
+
+4. Set up your Hugging Face API token:
+export HF_TOKEN=your_huggingface_token
+
+
+5. Run the application:
+streamlit run app.py
 
 .. toctree::
    :maxdepth: 2

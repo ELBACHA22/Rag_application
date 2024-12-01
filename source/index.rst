@@ -30,8 +30,10 @@ export HF_TOKEN=your_huggingface_token
 Usage
 ============
 To run the application, follow these steps:
+
+
 1. Run the application:
-streamlit run app.py
+streamlit run RagPdf.py
 
 
 2.Upload a PDF and select the model you wish to use. You can adjust parameters such as temperature, max tokens, and top-k sampling for your queries.

@@ -1,0 +1,30 @@
+
+# Build documentation in the docs/ directory
+version: 2
+
+# Define the programming language and version
+python:
+  version: 3.9  # Adjust to match your Python version
+  install:
+    - method: pip
+      path: .
+    - requirements: docs/requirements.txt
+
+# Specify the Sphinx builder
+sphinx:
+  configuration: docs/conf.py
+
+# Enable the use of Sphinx's 'sphinx_rtd_theme'
+formats:
+  - html
+  - pdf
+
+# Build settings
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.9"
+
+# Environment variables (if needed, add your own)
+env:
+  - HF_TOKEN=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
